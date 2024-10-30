@@ -120,12 +120,13 @@ a.meanmenu-reveal{display:none}
   background: #fff;
 }
 .mean-container .mean-bar::before {
-    color: #fff;
-   content: "STAYPOWER";
-    font-size: 28px;
-    font-weight: 600;
-    left: 10px;
-    position: absolute;
-    top: 18px;
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  width: 200px; /* Adjust width to fit your image */
+  height: 40px; /* Adjust height to fit yourassets image */
+  background-image: url('../images/logo\ \(2\).png'); /* Replace with the actual path */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
